@@ -152,7 +152,7 @@ code {
   background:
     linear-gradient(90deg, rgba(5, 7, 17, 0.96) 0%, rgba(5, 7, 17, 0.72) 30%, rgba(5, 7, 17, 0.16) 68%),
     linear-gradient(0deg, rgba(5, 7, 17, 0.96) 0%, transparent 40%),
-    url("assets/hero-ice-duo.png") center / cover no-repeat;
+    url("https://raw.githubusercontent.com/daleforbes/grab2win/main/assets/hero-ice-duo.png") center / cover no-repeat;
   transform: scale(1.02);
   animation: heroDrift 14s ease-in-out infinite alternate;
 }
@@ -740,7 +740,7 @@ code {
   .hero-bg {
     background:
       linear-gradient(180deg, rgba(5, 7, 17, 0.76), rgba(5, 7, 17, 0.95) 78%),
-      url("assets/hero-ice-duo.png") 62% center / cover no-repeat;
+      url("https://raw.githubusercontent.com/daleforbes/grab2win/main/assets/hero-ice-duo.png") 62% center / cover no-repeat;
   }
 
   .hero h1 {

@@ -40,8 +40,8 @@ Use these Netlify settings:
 
 Use the Google login for `dale@cgcowboy.com`, connect the GitHub repo, then add
 `grab2win.com` and `www.grab2win.com` under Netlify domain management. If DNS
-stays at the current registrar, point `@` to Netlify and point `www` to the
-assigned `*.netlify.app` site name.
+stays at GoDaddy, point `@` to Netlify and point `www` to the assigned
+`*.netlify.app` site name.
 
 ## Source notes
 

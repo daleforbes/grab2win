@@ -23,10 +23,10 @@ The committed `netlify.toml` already sets `publish = "."`, security headers, con
 
 There are two practical options:
 
-1. Keep DNS at the current domain registrar and point records to Netlify.
-2. Move DNS hosting to Netlify by changing nameservers at the registrar to the Netlify nameservers.
+1. Keep DNS at GoDaddy and point records to Netlify.
+2. Move DNS hosting to Netlify by changing nameservers at GoDaddy to the Netlify nameservers.
 
-For the first launch, keeping DNS at the current registrar is the lower-risk path because it avoids moving every DNS record for the domain.
+For the first launch, keeping DNS at GoDaddy is the lower-risk path because it avoids moving every DNS record for the domain.
 
 ## Netlify domain steps
 
@@ -41,16 +41,16 @@ After the site is imported and the first deploy succeeds:
    - Use `www.grab2win.com` if you want Netlify's recommended external-DNS setup.
 6. Wait to provision HTTPS until the DNS records below resolve correctly.
 
-## Registrar DNS records
+## GoDaddy DNS records
 
-If DNS stays at the current registrar, add or update these records after Netlify gives you the exact target site name:
+If DNS stays at GoDaddy, add or update these records in the GoDaddy DNS manager after Netlify gives you the exact target site name:
 
 | Type | Name | Value | Notes |
 | --- | --- | --- | --- |
 | A | `@` | `75.2.60.5` | Netlify fallback apex record for `grab2win.com`. |
 | CNAME | `www` | `{netlify-site-name}.netlify.app` | Replace with the real Netlify subdomain. |
 
-Before saving, remove or replace any conflicting parking, forwarding, or website-builder records for `@` and `www`.
+Before saving, remove or replace any conflicting GoDaddy parking, forwarding, or website-builder records for `@` and `www`.
 
 DNS can take several hours to propagate. Netlify may show pending DNS verification until propagation completes.
 

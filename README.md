@@ -13,9 +13,9 @@ npx serve . -l 4173
 ## Second-pass changes
 
 - Replaced the original SVG hero with a generated, original icy esports hero image at `assets/hero-ice-duo.png`.
-- Added the family-provided Melee Magazine Wisconsin Edition 2025 No. 1 debut proof point.
+- Added the Melee Magazine Wisconsin Edition 2025 No. 1 debut recognition.
 - Added public research from SmashWiki, Liquipedia, EventHubs, Melee Stats, and start.gg-indexed bracket pages.
-- Embedded verified Cream City Convergence 2025 YouTube VODs from Liquipedia bracket metadata.
+- Embedded verified Cream City Convergence 2025 and Riptide 2023 YouTube VODs from Liquipedia metadata.
 
 ## Add or update match videos
 
@@ -25,7 +25,7 @@ The match-film section is driven by `script.js`. For each video, set:
 youtubeId: "VIDEO_ID_HERE"
 ```
 
-The Riptide 2023 Peanutphobia card remains a link until the exact YouTube ID is confirmed.
+Current embedded VODs include Grab2Win vs. dz, Lord English vs. Grab2Win, and Grab2Win vs. Peanutphobia.
 
 ## Suggested Netlify setup
 
@@ -54,6 +54,6 @@ Public sources used:
 - Melee Stats Nouns Bowl 2025 entrant listing.
 - EventHubs Cream City Convergence 2024 results.
 
-Family-provided source:
+Private source:
 
-- Melee Magazine Wisconsin Edition 2025 cover page showing "Grab2Win's No. 1 Debut."
+- Melee Magazine Wisconsin Edition 2025 cover showing "Grab2Win's No. 1 Debut."

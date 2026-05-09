@@ -16,8 +16,8 @@ const videos = [
   {
     title: "Grab2Win vs. Peanutphobia",
     event: "Riptide 2023",
-    note: "Public VOD listing found; exact YouTube ID still needs confirmation.",
-    youtubeId: "",
+    note: "Verified Riptide 2023 VOD from Liquipedia's tournament VOD list.",
+    youtubeId: "R8T7dxavAaw",
     link: "https://liquipedia.net/smash/Peanutphobia/VODs"
   }
 ];

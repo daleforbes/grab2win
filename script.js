@@ -1,24 +1,24 @@
 const videos = [
   {
-    title: "Riptide 2023: Grab2Win vs. Peanutphobia",
-    event: "Riptide 2023",
-    note: "Public VOD listed on Liquipedia. Add the YouTube ID when confirmed.",
-    youtubeId: "",
-    link: "https://liquipedia.net/smash/Riptide/2023/Melee"
+    title: "Grab2Win vs. dz",
+    event: "Cream City Convergence 2025",
+    note: "Verified bracket VOD. Grab2Win wins the set 3-1 with Ice Climbers.",
+    youtubeId: "2hISXKQmFIw",
+    link: "https://liquipedia.net/smash/Cream_City_Convergence/2025/Melee/Singles_Bracket"
   },
   {
-    title: "Riptide 2023: Grab2Win vs. Flash",
-    event: "Riptide 2023",
-    note: "Winner-side set from the public VOD list.",
-    youtubeId: "",
-    link: "https://liquipedia.net/smash/Riptide/2023/Melee"
+    title: "Lord English vs. Grab2Win",
+    event: "Cream City Convergence 2025",
+    note: "Verified bracket VOD from the same Milwaukee run.",
+    youtubeId: "uYqgdVlCO-c",
+    link: "https://liquipedia.net/smash/Cream_City_Convergence/2025/Melee/Singles_Bracket"
   },
   {
-    title: "Riptide 2023: n0ne vs. Grab2Win",
+    title: "Grab2Win vs. Peanutphobia",
     event: "Riptide 2023",
-    note: "Losers-side set from the public VOD list.",
+    note: "Public VOD listing found; exact YouTube ID still needs confirmation.",
     youtubeId: "",
-    link: "https://liquipedia.net/smash/Riptide/2023/Melee"
+    link: "https://liquipedia.net/smash/Peanutphobia/VODs"
   }
 ];
 
@@ -36,7 +36,7 @@ function renderVideos() {
             allowfullscreen
           ></iframe>`
         : `<a class="video-placeholder" href="${video.link}" target="_blank" rel="noreferrer">
-            Add verified YouTube link
+            Confirm Riptide VOD
           </a>`;
 
       return `
@@ -56,4 +56,17 @@ function renderVideos() {
     .join("");
 }
 
+function activateHeader() {
+  const header = document.querySelector("[data-header]");
+  if (!header) return;
+
+  const onScroll = () => {
+    header.classList.toggle("is-scrolled", window.scrollY > 24);
+  };
+
+  onScroll();
+  window.addEventListener("scroll", onScroll, { passive: true });
+}
+
 renderVideos();
+activateHeader();

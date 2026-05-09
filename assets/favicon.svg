@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Grab2Win mark">
+  <rect width="64" height="64" rx="14" fill="#07131f"/>
+  <path d="M13 41 25 15h14l12 26-6 8H19l-6-8Z" fill="#d9f7ff"/>
+  <path d="M25 15h14l-7 34H19l-6-8 12-26Z" fill="#8bd8ee"/>
+  <path d="M21 42h22l-4 7H25l-4-7Z" fill="#ffd166"/>
+  <path d="M24 29h16M28 23h8" stroke="#07131f" stroke-width="4" stroke-linecap="round"/>
+</svg>

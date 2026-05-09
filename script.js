@@ -2,21 +2,21 @@ const videos = [
   {
     title: "Grab2Win vs. dz",
     event: "Cream City Convergence 2025",
-    note: "Verified bracket VOD. Grab2Win wins the set 3-1 with Ice Climbers.",
+    note: "A 3-1 Ice Climbers win built on control, patience, and clean confirms.",
     youtubeId: "2hISXKQmFIw",
     link: "https://liquipedia.net/smash/Cream_City_Convergence/2025/Melee/Singles_Bracket"
   },
   {
     title: "Lord English vs. Grab2Win",
     event: "Cream City Convergence 2025",
-    note: "Verified bracket VOD from the same Milwaukee run.",
+    note: "A tough Milwaukee set that shows the pressure and volatility around the Grab2Win game plan.",
     youtubeId: "uYqgdVlCO-c",
     link: "https://liquipedia.net/smash/Cream_City_Convergence/2025/Melee/Singles_Bracket"
   },
   {
     title: "Grab2Win vs. Peanutphobia",
     event: "Riptide 2023",
-    note: "Verified Riptide 2023 VOD from Liquipedia's tournament VOD list.",
+    note: "A national-major set against Peanutphobia from the Riptide 2023 run.",
     youtubeId: "R8T7dxavAaw",
     link: "https://liquipedia.net/smash/Peanutphobia/VODs"
   }
